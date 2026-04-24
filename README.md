@@ -6,3 +6,4 @@ Hi-UCD-mini can be downloaded from [Google Drive](https://drive.google.com/file/
 
 SECOND can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1fzAn4Bez_S6KX83iYABjAlASCzzhRJPQ).  
 
+The weights of DFINet on SECOND can be downloaded from Baidu Netdisk:  Link: https://pan.baidu.com/s/1WlCOBc3L4_35j6Uolk5e5A  Extraction code: thif
