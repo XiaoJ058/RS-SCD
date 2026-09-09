@@ -13,6 +13,24 @@ SRNet is a Swin-based semantic change detection network that adapts a pretrained
 - `models/Swin/SRNet.py` — SRNet (Swin-Base backbone).
 - `models/Swin/SRNet_tiny.py` — SRNet-tiny (Swin-Tiny backbone).
 
+### Citation
+
+If you find SRNet useful in your research, please consider citing:
+
+> Z. Jiang et al., "SRNet: Semantic Anchoring and Fine-Grained Refinement Network for Semantic Change Detection in Remote Sensing Images," in IEEE Transactions on Geoscience and Remote Sensing, vol. 64, pp. 4413617-4413617, 2026, Art no. 4413617, doi: [10.1109/TGRS.2026.3715494](https://doi.org/10.1109/TGRS.2026.3715494).
+
+```bibtex
+@article{jiang2026srnet,
+  title={SRNet: Semantic Anchoring and Fine-Grained Refinement Network for Semantic Change Detection in Remote Sensing Images},
+  author={Jiang, Zhenghao and others},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  volume={64},
+  pages={4413617},
+  year={2026},
+  doi={10.1109/TGRS.2026.3715494}
+}
+```
+
 ### Pretrained weights (Baidu Pan)
 
 Download the following files and place them at the given paths inside this repository:
