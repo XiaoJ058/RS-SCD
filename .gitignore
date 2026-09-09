@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# large weights: download from Baidu Pan (see README), never commit
+checkpoints/*.pth
+models/Swin/weight/*.pth
+
+# training artifacts
+logs/
+results/

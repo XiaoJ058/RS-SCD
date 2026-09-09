@@ -5,8 +5,9 @@ import torch.autograd
 from torch.nn import functional as F
 from torch.utils.data import DataLoader
 from datasets import RS_ST as RS
-from models.Compar.DFINet import DFINet as Net
+from models.Swin.SRNet import SRNet as Net
 from utils.utils import accuracy, SCDD_eval_all, AverageMeter
+
 
 DATA_NAME = 'ST'
 
@@ -18,11 +19,11 @@ class PredOptions():
 
     def initialize(self, parser):
         working_path = os.path.dirname(os.path.abspath(__file__))
-        parser.add_argument('--pred_batch_size', required=False, default=8, help='prediction batch size')
-        parser.add_argument('--test_dir', required=False, default=R"I:\Datasets\SCD\SECOND_OG\test",
+        parser.add_argument('--pred_batch_size', required=False, default=4, help='prediction batch size')
+        parser.add_argument('--test_dir', required=False, default=R"E:\SCD\SECOND_OG\test",
                             help='directory to test images')
         parser.add_argument('--chkpt_path', required=False,
-                            default=working_path + R'\checkpoints/Compar_Method_SECOND/DFINet_43e_mIoU72.61_Sek31.38_OA89.11.pth')
+                            default=working_path + R'/checkpoints/SRNet_SECOND_23e_mIoU74.04_Sek25.15_Fscd63.93.pth')
         self.initialized = True
         return parser
 
